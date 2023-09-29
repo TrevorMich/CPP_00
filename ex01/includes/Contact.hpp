@@ -6,7 +6,7 @@
 /*   By: ioduwole <ioduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/29 09:06:40 by ioduwole          #+#    #+#             */
-/*   Updated: 2023/08/30 14:17:05 by ioduwole         ###   ########.fr       */
+/*   Updated: 2023/08/31 23:10:44 by ioduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ class Contact {
 
 	int		index;
 	void	addEntry(int entry, std::string fn, std::string ln, std::string nn, std::string pn, std::string ds);
+	void	updateNames();
+	void	insertEntry();
 } ;
 
 

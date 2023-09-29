@@ -6,7 +6,7 @@
 /*   By: ioduwole <ioduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/29 09:19:21 by ioduwole          #+#    #+#             */
-/*   Updated: 2023/08/30 14:32:24 by ioduwole         ###   ########.fr       */
+/*   Updated: 2023/08/31 22:52:29 by ioduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,9 @@ int main(int argc, char *argv[])
 		}
 		else if (command == "SEARCH")
 		{
-			if (!phoneBook.entries())
+			if (!phonebook.entries())
+				break;
 		}
 	}
+	return (0);
 }

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ioduwole <ioduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/29 08:39:06 by ioduwole          #+#    #+#             */
-/*   Updated: 2023/08/29 08:54:09 by ioduwole         ###   ########.fr       */
+/*   Created: 2023/09/06 21:21:30 by ioduwole          #+#    #+#             */
+/*   Updated: 2023/09/06 21:28:53 by ioduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,8 @@
 int main(int argc, char *argv[])
 {
 	if (argc == 1)
-		std::cout<<"* LOUD AND UNBEARABLE FEEDBACK NOISE *\n";
-	int i, j;
-
-	i = 1;
+		std::cout<<"* LOUD AND UNBEARABLE FEEDBACK NOISE *";
+	int i = 1, j;
 	while (argv[i])
 	{
 		j = 0;
@@ -26,7 +24,7 @@ int main(int argc, char *argv[])
 		{
 			if (argv[i][j] >= 'a' && argv[i][j] <= 'z')
 				argv[i][j] -= 32;
-			std::cout<< argv[i][j];
+			std::cout<<argv[i][j];
 			j++;
 		}
 		i++;
